@@ -170,7 +170,7 @@ function App() {
                 onChange={handleNewGame}
               />
               <button className="btn btn-new-game" onClick={() => handleNewGame()}>
-                <span className="btn-icon">🔄</span> New Game
+                New Game
               </button>
             </div>
 
