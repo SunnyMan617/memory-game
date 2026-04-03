@@ -10,7 +10,7 @@ const ScoreSchema = new mongoose.Schema({
   coups: {
     type: Number,
     required: [true, 'Number of moves is required'],
-    min: [8, 'Minimum possible moves is 8'],
+    min: [6, 'Minimum possible moves is 6'],
   },
   difficulty: {
     type: String,
