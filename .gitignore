@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+frontend/build/
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+
